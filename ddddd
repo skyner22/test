@@ -473,8 +473,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	WindowConfig = WindowConfig or {}
 	WindowConfig.Name = WindowConfig.Name or "Orion Library"
 	WindowConfig.ConfigFolder = WindowConfig.ConfigFolder or WindowConfig.Name
-	WindowConfig.SaveConfig = WindowConfig.SaveConfig or true
-	WindowConfig.HidePremium = WindowConfig.HidePremium or true
+	WindowConfig.SaveConfig = WindowConfig.SaveConfig or false
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
